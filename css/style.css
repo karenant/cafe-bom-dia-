@@ -1,0 +1,96 @@
+
+/* Configurações gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #3e2723;
+}
+
+/* Menu */
+.navbar {
+    background-color: #4e342e;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+/* Início */
+.inicio {
+    background-color: #f5e6d3;
+    padding: 120px 20px;
+}
+
+.inicio h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #4e342e;
+}
+
+.inicio p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/* Botão */
+.btn-warning {
+    background-color: #a66a3f;
+    color: white;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #80502f;
+    color: white;
+}
+
+/* Títulos */
+h2 {
+    color: #4e342e;
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Sobre */
+.sobre {
+    background-color: #f5e6d3;
+    padding: 60px 20px;
+}
+
+.sobre p {
+    font-size: 17px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4e342e;
+    color: white;
+    padding: 20px;
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+    .inicio h1 {
+        font-size: 30px;
+    }
+
+    .inicio {
+        padding: 80px 20px;
+    }
+}
+
